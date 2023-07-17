@@ -12,6 +12,7 @@
     --rating-marks: #5E6366;
     --ontime-color: #6C6C6C;
     --foot-p-color: #D9DBE1;
+    --white-color: #ffffff;
     --price-color: rgba(0, 0, 0, 0.87);
     --shadow-color: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 
@@ -20,6 +21,7 @@
     --primary-font-size: 16px;
     --secondary-font-size: 24px;
     --third-font-size: 28px;
+    --forth-font-size: 38px;
     --home-title-font-size: 52px
 
     /* responsive font size */
