@@ -150,10 +150,15 @@ ul li:hover a {
 
 .journey_image {
     background-image: url(../images/Circle\ design.svg);
-    background-size: cover !important;
-    background-position: 0 0;
+    background-size: cover;
+    background-position: top center;
     background-repeat: no-repeat;
     height: 440px;
+    padding: 0.2%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* partner company area style start */
@@ -200,6 +205,10 @@ ul li:hover a {
 .popular_content_box .product_title {
     font-weight: 500;
     line-height: 40px;
+}
+
+.popular_content_box p.para {
+    margin-bottom: 10px;
 }
 
 p.star_rating {
@@ -270,7 +279,7 @@ p.star_rating span {
         padding: 45px 15px;
         height: 650px;
         text-align: center;
-        align-items: stretch;
+        align-items: center;
         gap: 30px;
     }
 
@@ -416,11 +425,11 @@ p.star_rating span {
     }
 
     .journey_content {
-        width: 50% !important;
+        width: 45% !important;
     }
 
     .journey_image {
-        width: 50% !important;
+        width: 55% !important;
     }
 
     .journey_image {
@@ -431,7 +440,7 @@ p.star_rating span {
     }
 
     .journey_image img {
-        width: 100%;
+        width: 90%;
     }
 
     .btn {
@@ -461,7 +470,7 @@ p.star_rating span {
     }
 
     .popular_cl_box img {
-        height: 200px;
+        height: 190px;
     }
 
     .product_title_control h2 {
