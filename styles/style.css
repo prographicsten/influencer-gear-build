@@ -105,12 +105,13 @@ ul li:hover a {
     display: flex;
     gap: 100px;
     align-items: center;
-    height: 70vh;
+    height: 45vh;
+    padding: 50px 120px;
 }
 
 .journey_title {
     line-height: 70px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .journey_para {
@@ -193,6 +194,54 @@ ul li:hover a {
         width: 100%;
         margin-bottom: 15px;
     }
+
+
+
+    .start_your_journey {
+        flex-direction: column-reverse;
+        padding: 40px 15px 20px;
+        height: 90vh;
+        text-align: center;
+        align-items: stretch;
+    }
+
+    .journey_content {
+        margin-top: -75px;
+    }
+
+    .journey_content, .journey_image {
+        width: 100%;
+        background-size: 100%;
+        height: 100%;
+    }
+
+    .journey_title {
+        line-height: 40px;
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .journey_para {
+        font-size: 13px;
+        width: 80%;
+        margin: 0px auto 25px;
+    }
+
+    .journey_image {
+        background-size: contain;
+    }
+
+    .journey_image img {
+        width: 100%;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .btn i {
+        font-size: 23px;
+    }
 }
 
 @media screen and (min-width: 576.01px) and (max-width: 992px) {
@@ -212,11 +261,11 @@ ul li:hover a {
     }
 
     h2.nav_title {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     ul.nav_list li a {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .nav_logo, ul.nav_list {
@@ -224,5 +273,46 @@ ul li:hover a {
         margin-bottom: 0px;
         align-items: center;
         justify-content: space-between;
+    }
+
+
+
+    .start_your_journey {
+        gap: unset;
+        height: 85vh;
+        gap: 50px;
+        padding: 50px 40px;
+    }
+
+    .journey_title {
+        line-height: 50px;
+        margin-bottom: 10px;
+        font-size: 32px;
+    }
+
+    .journey_para {
+        font-size: 13px;
+        width: 360px;
+    }
+
+    .journey_content, .journey_image {
+        width: 50%;
+    }
+
+    .journey_image {
+        background-size: contain;
+        height: 370px;
+    }
+
+    .journey_image img {
+        width: 100%;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .btn i {
+        font-size: 23px;
     }
 }
