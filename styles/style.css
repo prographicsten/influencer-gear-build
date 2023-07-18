@@ -100,6 +100,53 @@ ul li:hover a {
     color: red;
 }
 
+/* start your journey area */
+.start_your_journey {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    height: 70vh;
+}
+
+.journey_title {
+    line-height: 70px;
+    margin-bottom: 5px;
+}
+
+.journey_para {
+    width: 562px;
+    margin-bottom: 25px;
+}
+
+/* btn style css */
+.btn {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 25px;
+    border: none;
+    display: inline-flex;
+    gap: 8px;
+    transition: .3s ease-in;
+}
+
+.btn:hover {
+    background: #000;
+}
+
+.btn i {
+    font-size: 25px;
+}
+
+.journey_image {
+    background-image: url(../images/Circle\ design.svg);
+    background-size: cover;
+    background-position: to bottom;
+    background-repeat: no-repeat;
+    height: 440px;
+}
 
 
 
