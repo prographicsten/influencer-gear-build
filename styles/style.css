@@ -104,9 +104,10 @@ ul li:hover a {
 .start_your_journey {
     display: flex;
     gap: 100px;
-    align-items: center;
-    height: 45vh;
+    height: 350px;
     padding: 50px 120px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .journey_title {
@@ -212,17 +213,16 @@ ul li:hover a {
 
     .start_your_journey {
         flex-direction: column-reverse;
-        padding: 15px 15px 0px;
-        height: 90vh;
+        padding: 45px 15px;
+        height: 650px;
         text-align: center;
         align-items: stretch;
         gap: 30px;
     }
 
     .journey_content, .journey_image {
-        width: 100%;
-        background-size: 100%;
-        height: 50%;
+        width: 100% !important;
+        height: 65%;
     }
 
     .journey_content {
@@ -325,12 +325,12 @@ ul li:hover a {
     .journey_title {
         line-height: 50px;
         margin-bottom: 10px;
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .journey_para {
         font-size: 13px;
-        width: 85%;
+        width: 95%;
     }
 
     .journey_content {
