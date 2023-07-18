@@ -426,7 +426,6 @@ p.star_rating span {
     .journey_image {
         background-size: cover;
         height: 100%;
-        /* width: 100%; */
         background-repeat: round;
         padding: 4px;
     }
