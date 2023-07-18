@@ -24,6 +24,17 @@
     /* font-family: Poppins; */
 }
 
+li {
+    list-style: none;
+}
+
+li a {
+    font-size: 16px;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: .3s;
+}
+
 h1 {
     font-size: 52px;
     color: var(--primary-color);
@@ -52,4 +63,119 @@ p .para {
 p .foot {
     font-size: 14px;
     color: var(--foot-p-color);
+}
+
+/* custom styles for codes */
+.header_area {
+    padding: 50px 120px;
+}
+
+.nav_area {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.nav_list {
+    display: flex;
+}
+
+.nav_area ul li:nth-child(6) {
+    margin-right: 0px;
+}
+
+ul li {
+    margin-right: 34px;
+}
+
+ul li:hover a {
+    color: red;
+}
+
+.icon_hover {
+    font-size: 25px;
+    transition: .3s;
+}
+
+.icon_hover:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .header_area {
+        padding: 25px 15px;
+        background-color: #2ED8E1;
+    }
+
+    .nav_area {
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    ul.nav_list {
+        flex-direction: column;
+    }
+
+    .nav_area ul li, .nav_area ul li:nth-child(6) {
+        margin-right: unset;
+        margin-bottom: 10px;
+    }
+
+    h2.nav_title {
+        font-size: 25px;
+    }
+
+    ul.nav_list li a {
+        font-size: 16px;
+    }
+
+    .nav_logo, ul.nav_list {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 576.01px) and (max-width: 992px) {
+    .header_area {
+        padding: 25px 40px;
+    }
+
+    .nav_area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav_area ul li, .nav_area ul li:nth-child(6) {
+        margin-right: unset;
+        margin-bottom: 0px;
+    }
+
+    h2.nav_title {
+        font-size: 25px;
+    }
+
+    ul.nav_list li a {
+        font-size: 16px;
+    }
+
+    .nav_logo, ul.nav_list {
+        width: 100%;
+        margin-bottom: 0px;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
