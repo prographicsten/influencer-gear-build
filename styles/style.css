@@ -149,6 +149,19 @@ ul li:hover a {
     height: 440px;
 }
 
+/* partner company area style start */
+.partner_company_area {
+    padding: 70px 120px;
+}
+
+.company_logos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+    border-top: 1px solid #e8e0e0;
+    border-bottom: 1px solid #e8e0e0;
+    margin: 0px 50px;
+}
 
 
 
@@ -199,20 +212,22 @@ ul li:hover a {
 
     .start_your_journey {
         flex-direction: column-reverse;
-        padding: 40px 15px 20px;
+        padding: 40px 15px 0px;
         height: 90vh;
         text-align: center;
         align-items: stretch;
-    }
-
-    .journey_content {
-        margin-top: -75px;
+        gap: 30px;
     }
 
     .journey_content, .journey_image {
         width: 100%;
         background-size: 100%;
-        height: 100%;
+        height: 50%;
+    }
+
+    .journey_content {
+        margin-top: unset;
+        height: 40%;
     }
 
     .journey_title {
@@ -242,6 +257,27 @@ ul li:hover a {
     .btn i {
         font-size: 23px;
     }
+
+
+    .partner_company_area {
+        padding: 0px 20px;
+    }
+
+    .company_logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        align-items: center;
+        margin: 0px 0px;
+        justify-items: center;
+        padding: 35px 0px;
+        
+    }
+
+    .company_logos img {
+        width: 100px;
+    }
+
 }
 
 @media screen and (min-width: 576.01px) and (max-width: 992px) {
@@ -314,5 +350,18 @@ ul li:hover a {
 
     .btn i {
         font-size: 23px;
+    }
+
+
+    .company_logos {
+        align-items: center;
+    }
+
+    .partner_company_area {
+        padding: 0px 0px 20px;
+    }
+
+    .company_logos img {
+        width: 60px;
     }
 }
