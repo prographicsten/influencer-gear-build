@@ -308,12 +308,12 @@ p.star_rating span {
     .journey_image {
         background-position: top center;
         width: 100% !important;
-        height: 55%;
-        background-repeat: round;
+        height: 56%;
+        background-repeat: no-repeat !important;
     }
 
     .journey_image img {
-        width: 100%;
+        width: 95%;
     }
 
     .btn {
@@ -363,11 +363,18 @@ p.star_rating span {
     }
 
     .popular_content_box p.para {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .popular_content_box h3 {
         font-size: 22px;
+        margin: 5px 0px;
+    }
+
+    p.star_rating i {
+        font-size: 16px;
+        margin: 3px 0px;
+        color: red;
     }
 
 }
@@ -483,9 +490,25 @@ p.star_rating span {
 
     .popular_content_box h3 {
         font-size: 22px;
+        margin-bottom: 5px;
     }
 
     .popular_content_box p.para {
-        font-size: 12px;
+        font-size: 13px;
+        line-height: 20px;
     }
+
+    p.star_rating {
+        margin: 10px 0px;
+    }
+
+    p.star_rating i {
+        color: chartreuse;
+    }
+
+    .journey_image img {
+        width: 90%;
+        background-repeat: no-repeat !important;
+    }
+
 }
